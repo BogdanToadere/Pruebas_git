@@ -1,0 +1,16 @@
+GIT
+
+git status : ver el estado de los archivos 
+	-s : output simple de los estados
+git add [FILE] : añade el FILE a la capa STAGE
+	Listas de archivos
+	regexp *.txt
+	* todo lo que haya sufrido cambios
+git commit : guarda los archivos en la fase de STAGE
+	-m : añadir titulo al commit desde terminal
+git restore : devuelve cambios
+	--staged : igual pero saca el archivo de STAGE
+git diff : ver las diferencias enter versiones de un archivo antes de llegar a stage
+	--staged : igual pero en los archivos en STAGE
+git log : ver historial del repo autor, email, fecha y commit id
+	--oneline : simplificado solo hash y commit name
