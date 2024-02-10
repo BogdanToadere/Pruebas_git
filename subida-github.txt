@@ -1,0 +1,11 @@
+GIT
+
+git remote add origin https://github.com/BogdanToadere/Pruebas_git.git
+git push -u origin main
+	Meter usuario
+	Meter token generado
+
+LINUX
+
+touch [FILE]	crea archivo con nombre FILE
+nano [FILE]	escribe en archivo con nombre FILE si no existe lo crea
